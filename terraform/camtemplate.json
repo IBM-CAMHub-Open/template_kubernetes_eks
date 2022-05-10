@@ -1,7 +1,7 @@
 {
-  "name": "Amazon Web Services EKS",
-  "description": "Amazon Elastic Container Service for Kubernetes",
-  "version": "1.0",
+  "name": "Amazon Web Services EKS for Terraform 1.x.x",
+  "description": "Amazon Elastic Container Service for Kubernetes for Terraform 1.x.x",
+  "version": "2.0",
   "type": "prebuilt",
   "manifest": {
     "template_type": "Terraform",
