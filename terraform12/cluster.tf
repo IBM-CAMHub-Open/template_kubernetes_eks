@@ -1,5 +1,5 @@
 provider "aws" {
-  version = "~> 2.44.0"
+
 }
 
 resource "aws_iam_role" "cluster_role" {
@@ -45,8 +45,8 @@ resource "aws_security_group" "sg_cluster" {
   }
 
   tags = {
-    "aws:cloudformation:stack-name" = local.stack_name
-    "aws:cloudformation:logical-id" = "ControlPlaneSecurityGroup"
+    "cloudformation:stack-name" = local.stack_name
+    "cloudformation:logical-id" = "ControlPlaneSecurityGroup"
   }
 }
 
