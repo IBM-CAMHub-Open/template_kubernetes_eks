@@ -1,5 +1,5 @@
 provider "aws" {
-  version = "~> 2.44.0"
+
 }
 
 resource "aws_iam_role" "cluster_role" {
